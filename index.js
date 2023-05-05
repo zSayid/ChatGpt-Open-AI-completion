@@ -1,4 +1,4 @@
-const API_KEY = "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";
+const API_KEY = "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"; // Your API KEY
 const API_URL = "https://api.openai.com/v1/chat/completions";
 
 const promptInput = document.getElementById("promptInput");
@@ -86,7 +86,7 @@ const stop = () => {
     }
 }
 
-// a user either clicks on the generate button or press the enter key when the input field is focused (foydalanuvchi geneate tugmasini yoki enter tugmasini boshishi bilan generate funksiyasi ishga tuhsib ketadi)
+// a user either clicks on the generate button or press the enter key when the input field is focused (foydalanuvchi geneate tugmasini yoki enter tugmasini boshishi bilan generate funksiyasi ishga tushib ketadi)
 generateBtn.addEventListener("click", generate);
 promptInput.addEventListener("keyup", (event) => {
     if (event.key === "Enter") {
